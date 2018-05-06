@@ -1,0 +1,42 @@
+body {
+    background-color: aqua;
+}
+
+h1,h2 {
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+div p {
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+div>p {
+    background-color: red;
+}
+
+/* Selector ID */
+#pendahuluan {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+
+/* Selector Classes */
+
+p.bg-merah {
+    background-color: red;
+}
+
+p.teks-putih {
+    color: white;
+}
+
+* {
+
+}
+
+a[sesuatu=apalah] {
+    font-size: 30px;
+}
